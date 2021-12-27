@@ -3,7 +3,7 @@ package Logical_program;
 public class ArmStrong_Numer {
 	
 public static void main(String[] args) {
-		
+		//Changes are done
 		//1--> //153-->1+125+27-->153, 407--> 64+0+343-->407// 
 		
 		int num=153;
