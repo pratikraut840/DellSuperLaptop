@@ -1,31 +1,38 @@
 package Logical_program;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+
 public class ArmStrong_Numer {
 	
+
+
 public static void main(String[] args) {
 		
-		//1--> //153-->1+125+27-->153, 407--> 64+0+343-->407// 
+		ArrayList<String> s= new ArrayList<String>();
+		s.add("Ram");
+		s.add("sham");
+		s.add("seeta");
+		s.add("geeta");
+		s.add("laxman");
 		
-		int num=153;
-		int num1=0;
+		for(String s1:s) {
+			System.out.println(s1);
+		}
+		
+			//Webdriverwait w= new Webdriverwait(driver, 10);
+			//w.until(ExpectedCondition.visiblityof(element));
+		}
+		//(//tagname[@Attribute='Attribute value'])[2]
+				
+				
+		//	webdriver driver= new Chromedriver();
 			
-		for(int i=num;i>0;i=i/10)// 153 15 1
-		{
-			System.out.println(i);
-			//System.out.println(i%10);//3, 5, 1
-			int rem=i%10;
-			num1=num1+(rem*rem*rem);
-			
-		}
-
-		if(num1==num)
-		{
-			System.out.println("Given number " +num+" is ArmStrong Number");
-		}
-		else {
-			System.out.println("Given number " +num+" is not ArmStrong Number");
-		}
-	}
+	
+	
+	
+	
+	
 
 }
 
